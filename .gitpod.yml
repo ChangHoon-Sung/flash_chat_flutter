@@ -6,7 +6,6 @@ tasks:
       source ~/.bashrc
     init: |
       echo "Wait for the installation"
-      bash /workspace/gitpod-flutter/fonts.sh
       yes | sdk i java 8.0.242-open
       sdk use java 8.0.242-open
       sdk i kotlin
@@ -30,9 +29,9 @@ vscode:
   extensions:
     - Nash.awesome-flutter-snippets@2.0.3:6jLJSOqEGV5k8R0xYG7Oqg==
     - 2gua.rainbow-brackets@0.0.6:Tbu8dTz0i+/bgcKQTQ5b8g==
-    - Dart-Code.flutter@3.8.1:cytqQi/+kpu802ZOaJwayw==
-    - Dart-Code.dart-code@3.8.1:+5Rq24Mq46eJa5w39WY0bA==
     - PKief.material-icon-theme@3.9.3:GVmljEI1+vB8Qkqq/e1dfw==
     - Equinusocio.vsc-material-theme@32.5.0:QKQzJamqCIUjkJSSXc5o8w==
-    - alexisvt.flutter-snippets@2.0.0:IZ1TjU5xgx/l/7naPOooFA==
     - rokoroku.vscode-theme-darcula@1.2.0:ZyVHS8l8L8mQegxVPLtifg==
+    - TabNine.tabnine-vscode@2.6.1:KpjZLUYneLXGF9y4CcdThw==
+    - Dart-Code.dart-code@3.9.1:jTAh+eEdGYiGfXpp+cNFlg==
+    - Dart-Code.flutter@3.9.1:Vg9YBnZuZPBIetUV1bObAQ==
